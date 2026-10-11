@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f3f6f5;
+  color: #24332e;
+}
+
+header {
+  background: #1e5949;
+  color: white;
+  text-align: center;
+  padding: 25px 12px;
+}
+
+main {
+  max-width: 750px;
+  margin: 25px auto;
+  padding: 16px;
+}
+
+#search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#bookList {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.book {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 6px #00000012;
+}
+
+.book h3 {
+  margin-top: 0;
+}
+
+button {
+  background: #1e5949;
+  color: white;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #143d32;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #e5a93d;
+  outline-offset: 2px;
+}
+
+#message {
+  min-height: 20px;
+}
